@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: create file
-        run:
+        run:  |
           mkdir temp
           echo "alpha" > temp/alpha.html
           
